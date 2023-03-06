@@ -10,13 +10,13 @@ const populateReducer = (state = initialState, action) => {
 
   switch (action.type) {
 
-    // //for load data:_
-    // case 'load data':
-    //   // console.log("jaall",action.payload);
-    //   return {
-    //     ...state,                //it is for get initial dataa .And also information(value) of list.
-    //     list: action.payload
-    //   }
+     //for load data:_
+     case 'load data':
+       // console.log("jaall",action.payload);
+       return {
+         ...state,                //it is for get initial dataa .And also information(value) of list.
+         list: action.payload
+       }
 
 
     //for add(insert):-
