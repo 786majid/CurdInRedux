@@ -1,14 +1,14 @@
 //2nd make this:-(it is my action page)
 
 // // for load data:
-// const loadData = (dataa) => {           //dataa keyword is for get the information from load data from Employee page        
-// // console.log('yes',dataa);
-//     return {                              //it is the action's payload
-//         type: 'load data',                      // it means what to do
-//         payload: dataa                           //payload me value hai
-//     }
-// }
-// export { loadData }
+ const loadData = (dataa) => {           //dataa keyword is for get the information from load data from Employee page        
+console.log('yes',dataa);
+     return {                              //it is the action's payload
+     type: 'load data',                      // it means what to do
+        payload: dataa                           //payload me value hai
+     }
+ }
+ export { loadData }
 
 
 // for add (insert):-
